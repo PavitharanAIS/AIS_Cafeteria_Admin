@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#EB1701"
+    tools:context=".SplashScreenActivity">
+
+    <ImageView
+        android:id="@+id/imageView_splashLogo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="188dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.502"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/logo_red" />
+
+    <TextView
+        android:id="@+id/textView_splashCaption"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:fontFamily="@font/unicaone_regular"
+        android:text="@string/fast_fresh_and_full_of_flavor"
+        android:textAlignment="center"
+        android:textColor="#FFFFFF"
+        app:layout_constraintEnd_toEndOf="@+id/textView_splashLogoText"
+        app:layout_constraintHorizontal_bias="0.525"
+        app:layout_constraintStart_toStartOf="@+id/textView_splashLogoText"
+        app:layout_constraintTop_toBottomOf="@+id/textView_splashLogoText" />
+
+    <TextView
+        android:id="@+id/textView_splashLogoText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="12dp"
+        android:fontFamily="@font/bagelfatone_regular"
+        android:text="@string/ais_cafeteria"
+        android:textAlignment="center"
+        android:textColor="#FFFFFF"
+        android:textSize="36sp"
+        app:layout_constraintEnd_toEndOf="@+id/imageView_splashLogo"
+        app:layout_constraintHorizontal_bias="0.512"
+        app:layout_constraintStart_toStartOf="@+id/imageView_splashLogo"
+        app:layout_constraintTop_toBottomOf="@+id/imageView_splashLogo" />
+
+    <TextView
+        android:id="@+id/splashAdminText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/unicaone_regular"
+        android:text="@string/admin_dashboard"
+        android:textColor="@color/white"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView_splashCaption" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

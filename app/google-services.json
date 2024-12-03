@@ -1,0 +1,49 @@
+{
+  "project_info": {
+    "project_number": "924251470932",
+    "firebase_url": "https://ais-cafeteria-default-rtdb.firebaseio.com",
+    "project_id": "ais-cafeteria",
+    "storage_bucket": "ais-cafeteria.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:924251470932:android:dd3eb933988516e90e81c1",
+        "android_client_info": {
+          "package_name": "com.example.aiscafeteriaadmin"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDcNSOVDBBr-jt9VyN-R0SlCIhZ3oq0_a8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:924251470932:android:217562a6fdba141b0e81c1",
+        "android_client_info": {
+          "package_name": "com.examples.aiscafeteria"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDcNSOVDBBr-jt9VyN-R0SlCIhZ3oq0_a8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
